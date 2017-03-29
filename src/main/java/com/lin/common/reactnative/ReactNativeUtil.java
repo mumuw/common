@@ -71,7 +71,7 @@ public class ReactNativeUtil {
         AlertDialog dialog = builder.setTitle("error")
                 .setMessage("device no support reactnative")
                 .setCancelable(false)
-                .setPositiveButton("exit app", new DialogInterface.OnClickListener() {
+                .setPositiveButton("exit app !", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         ActivityStackManager.getInstance().appExit();
